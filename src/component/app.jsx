@@ -5,6 +5,7 @@ import Event from "./event/event";
 import Form from "./form/form";
 import Iteration from "./iteration/iteration";
 import IterationPractise from "./iteration/practiseProblem";
+import IterationPractise2 from "./iteration/PracriseProblem-2";
 const App = ()=> {
     return (
         <div>
@@ -12,10 +13,11 @@ const App = ()=> {
             <Hello/> */}
             {/* <Home/> */}
             {/* <Calculator/> */}
-            <Event/>
+            {/* <Event/>
             <Form/>
             <Iteration/>
-            <IterationPractise/>
+            <IterationPractise/> */}
+            <IterationPractise2/>
         </div>
     )
 }

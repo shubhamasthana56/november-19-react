@@ -3,6 +3,8 @@ import Home from "../home/home";
 import Calculator from "./calculator/calculator";
 import Event from "./event/event";
 import Form from "./form/form";
+import Iteration from "./iteration/iteration";
+import IterationPractise from "./iteration/practiseProblem";
 const App = ()=> {
     return (
         <div>
@@ -12,6 +14,8 @@ const App = ()=> {
             {/* <Calculator/> */}
             <Event/>
             <Form/>
+            <Iteration/>
+            <IterationPractise/>
         </div>
     )
 }

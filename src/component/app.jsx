@@ -8,6 +8,7 @@ import IterationPractise from "./iteration/practiseProblem";
 import IterationPractise2 from "./iteration/PracriseProblem-2";
 import SideEffect from "./side-Effects/side-effect";
 import SideEffectPractise from "./side-Effects/side-effect-practise";
+import PredictAge from "./side-Effects/predic-age";
 const App = ()=> {
     return (
         <div>
@@ -22,6 +23,7 @@ const App = ()=> {
             {/* <IterationPractise2/> */}
             {/* <SideEffect/> */}
             <SideEffectPractise/>
+            <PredictAge/>
         </div>
     )
 }

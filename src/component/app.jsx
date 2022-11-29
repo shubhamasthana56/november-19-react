@@ -10,6 +10,7 @@ import SideEffect from "./side-Effects/side-effect";
 import SideEffectPractise from "./side-Effects/side-effect-practise";
 import PredictAge from "./side-Effects/predic-age";
 import Validation from "./validation/validation";
+import UseReducerExample from "./useReduce-hook/useReduce-example";
 const App = ()=> {
     return (
         <div>
@@ -25,7 +26,7 @@ const App = ()=> {
             {/* <SideEffect/> */}
             {/* <SideEffectPractise/>
             <PredictAge/> */}
-            <Validation/>
+            <UseReducerExample/>
         </div>
     )
 }

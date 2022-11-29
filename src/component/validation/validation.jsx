@@ -22,6 +22,11 @@ const Validation = ()=> {
             case "password":
                 break;
             case "confirmPassword":
+                if(form.password !== form.confirmPassword) {
+
+                } else {
+                    
+                }
                 break;
         }
     }

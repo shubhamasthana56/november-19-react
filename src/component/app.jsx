@@ -11,9 +11,14 @@ import SideEffectPractise from "./side-Effects/side-effect-practise";
 import PredictAge from "./side-Effects/predic-age";
 import Validation from "./validation/validation";
 import UseReducerExample from "./useReduce-hook/useReduce-example";
+import Header from "./context/subcomponents/header";
+import Sidebar from "./context/subcomponents/sidebar";
+import Item from "./context/subcomponents/items";
+import Footer from "./context/subcomponents/footer";
+import ThemeProvider from "./context/themeProvider";
 const App = ()=> {
     return (
-        <div>
+        <ThemeProvider>
             {/* <Welcome/>
             <Hello/> */}
             {/* <Home/> */}
@@ -26,8 +31,11 @@ const App = ()=> {
             {/* <SideEffect/> */}
             {/* <SideEffectPractise/>
             <PredictAge/> */}
-            <UseReducerExample/>
-        </div>
+            {/* <Header/>
+            <Sidebar/>
+            <Item/>
+            <Footer/> */}
+        </ThemeProvider>
     )
 }
 export default App;

@@ -16,26 +16,28 @@ import Sidebar from "./context/subcomponents/sidebar";
 import Item from "./context/subcomponents/items";
 import Footer from "./context/subcomponents/footer";
 import ThemeProvider from "./context/themeProvider";
+import CartProvider from "./context/practise-problem/cartProvider";
 const App = ()=> {
     return (
-        <ThemeProvider>
-            {/* <Welcome/>
-            <Hello/> */}
-            {/* <Home/> */}
-            {/* <Calculator/> */}
-            {/* <Event/>
-            <Form/>
-            <Iteration/>
-            <IterationPractise/> */}
-            {/* <IterationPractise2/> */}
-            {/* <SideEffect/> */}
-            {/* <SideEffectPractise/>
-            <PredictAge/> */}
-            {/* <Header/>
-            <Sidebar/>
-            <Item/>
-            <Footer/> */}
-        </ThemeProvider>
+        // <ThemeProvider>
+        //     {/* <Welcome/>
+        //     <Hello/> */}
+        //     {/* <Home/> */}
+        //     {/* <Calculator/> */}
+        //     {/* <Event/>
+        //     <Form/>
+        //     <Iteration/>
+        //     <IterationPractise/> */}
+        //     {/* <IterationPractise2/> */}
+        //     {/* <SideEffect/> */}
+        //     {/* <SideEffectPractise/>
+        //     <PredictAge/> */}
+        //     {/* <Header/>
+        //     <Sidebar/>
+        //     <Item/>
+        //     <Footer/> */}
+        // </ThemeProvider>
+        <CartProvider/>
     )
 }
 export default App;

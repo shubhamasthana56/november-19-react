@@ -17,6 +17,9 @@ import Item from "./context/subcomponents/items";
 import Footer from "./context/subcomponents/footer";
 import ThemeProvider from "./context/themeProvider";
 import CartProvider from "./context/practise-problem/cartProvider";
+import FragmentExample from "./fragment/fragment";
+import RefExample from "./ref/refExample";
+import RefComplex from "./ref/refComplex";
 const App = ()=> {
     return (
         // <ThemeProvider>
@@ -37,7 +40,10 @@ const App = ()=> {
         //     <Item/>
         //     <Footer/> */}
         // </ThemeProvider>
-        <CartProvider/>
+        // <CartProvider/>
+        // <FragmentExample/>
+        // <RefExample/>
+        <RefComplex/>
     )
 }
 export default App;

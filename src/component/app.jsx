@@ -1,4 +1,4 @@
-import Counter from "./counter/counter";
+import Counter from "./class/class-counter";
 import Home from "../home/home";
 import Calculator from "./calculator/calculator";
 import Event from "./event/event";
@@ -20,6 +20,8 @@ import CartProvider from "./context/practise-problem/cartProvider";
 import FragmentExample from "./fragment/fragment";
 import RefExample from "./ref/refExample";
 import RefComplex from "./ref/refComplex";
+import Performance from "./performance-optimisation/performance";
+import MemoValue from "./memo-example/memo-value";
 const App = ()=> {
     return (
         // <ThemeProvider>
@@ -43,7 +45,9 @@ const App = ()=> {
         // <CartProvider/>
         // <FragmentExample/>
         // <RefExample/>
-        <RefComplex/>
+//    <Performance/>
+    //   <MemoValue/>
+      <Performance/>
     )
 }
 export default App;

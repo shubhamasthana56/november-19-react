@@ -22,6 +22,7 @@ import RefExample from "./ref/refExample";
 import RefComplex from "./ref/refComplex";
 import Performance from "./performance-optimisation/performance";
 import MemoValue from "./memo-example/memo-value";
+import CatFact from "./cat-fact/cat-fact";
 const App = ()=> {
     return (
         // <ThemeProvider>
@@ -47,7 +48,8 @@ const App = ()=> {
         // <RefExample/>
 //    <Performance/>
     //   <MemoValue/>
-      <Performance/>
+      // <Performance/>
+      <CatFact/>
     )
 }
 export default App;

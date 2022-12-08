@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Outlet, useNavigate, Link } from "react-router-dom";
 import Counter from "./class/class-counter";
 import Home from "../home/home";
 import Calculator from "./calculator/calculator";
@@ -23,6 +24,9 @@ import RefComplex from "./ref/refComplex";
 import Performance from "./performance-optimisation/performance";
 import MemoValue from "./memo-example/memo-value";
 import CatFact from "./cat-fact/cat-fact";
+import Navigation from "./navigation/navigation";
+import IndexComponent from "./index/index-component";
+
 const App = ()=> {
     return (
         // <ThemeProvider>
@@ -49,7 +53,20 @@ const App = ()=> {
 //    <Performance/>
     //   <MemoValue/>
       // <Performance/>
-      <CatFact/>
+      // <CatFact/>
+      // <Navigation/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<IndexComponent/>}/>
+          <Route path="home" element={<Home/>}/>
+          <Route path="Calculator" element={<Calculator/>}/>
+          <Route path="form" element={<Form/>}/>
+          <Route path="age" element={<><div ><Link to="/age/1">Predict</Link></div><Outlet/></>}>
+            <Route path=":id" element={<PredictAge/>}></Route>
+          </Route>
+          <Route path="*" element={<div>Page Not Found 404 !</div>} />
+        </Routes>
+      </BrowserRouter>
     )
 }
 export default App;
